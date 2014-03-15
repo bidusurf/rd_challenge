@@ -16,8 +16,8 @@ class RDChallenge
         :last_name => values[:last_name],
         :company_name => values[:company],
         :contact_data => {
-        :email_addresses => [
-          :email_address => {:address => values[:email]}
+          :email_addresses => [
+            :email_address => {:address => values[:email]}
           ],
           :phone_numbers => [
             :phone_number => {:number => values[:phone]}
